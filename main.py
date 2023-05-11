@@ -1,16 +1,14 @@
+
 def main():
-
-    dictionary1 = {10: "Kurt", 20: "Jim", 30: "Bill"}
-    print(dictionary1)
-
-    IDlist, Namelist = zip(*dictionary1.items())
-    print(IDlist)  # tuple
-    print(Namelist)  # tuple
-
-    for v in zip(*Namelist):
-        print(v)
+    mylist = [10, 20, 30, 40, 50]
 
     #########################################
+    # Code your program here
+    #########################################
+
+    #########################################
+    # Do not delete the reutrn statement
+    return result
 
 
 if __name__ == '__main__':

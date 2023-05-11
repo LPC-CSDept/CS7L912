@@ -17,8 +17,13 @@ def test_main_1():
     lines = captureOut.getvalue().split('\n')
     print(lines)
 
-    main.main()
-    assert True
+    ret = main.main()
+    assert len(ret) == 5
+    assert ret[0] == 5
+    assert ret[1] == 10
+    assert ret[2] == 15
+    assert ret[3] == 20
+    assert ret[4] == 25
 
     # regex_string = r'[\w,\W]*1'
     # regex_string += r'[\w,\W]*3'
