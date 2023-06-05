@@ -1,14 +1,19 @@
+def halfValue(numbers):
+    """
+    ########################################
+    Code Your Program here
+    ########################################
+    """
+
 
 def main():
     mylist = [10, 20, 30, 40, 50]
+    ret = halfValue(mylist)
+    print(ret)
 
-    #########################################
-    # Code your program here
-    #########################################
-
-    #########################################
-    # Do not delete the reutrn statement
-    return result
+    mylist = [1, 2, 3, 4, 5]
+    ret = halfValue(mylist)
+    print(ret)
 
 
 if __name__ == '__main__':
